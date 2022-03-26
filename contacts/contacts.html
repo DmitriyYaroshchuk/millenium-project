@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-top header-js">
+                <div class="container">
+                    <div class="header-content-tablet">
+                        <div class="block-hamburger-menu" id="modalButton">
+                            <img src="../image/hamburger-menu.svg" alt="menu">
+                        </div>
+                        <a class="link-logo-tablet" href="contacts.html">
+                            <img src="../image/logo-tablet.svg" alt="logo">
+                        </a>
+                        <button class="button-tablet" id="buttonPopupTablet">
+                            <img src="../image/call-tablet.svg" alt="call">
+                        </button>
+                    </div>
+                    <div class="header-content">
+                        <div class="header-menu-block">
+                            <a class="logo-link" href="#">
+                                <img class="logo-image" src="../image/logo-millenium.svg" alt="logo">
+                            </a>
+                            <nav class="menu">
+                                <ul class="menu-list">
+                                    <li class="menu-item menu-item-active">
+                                        <a class="menu-link" href="../index.html">Главная</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="../price/price.html">Цены</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="../portfolio/portfolio.html">Кейсы и отзывы</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="../contacts/contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-block">
+                            <div class="header-block-contacts">
+                                <a class="header-block-link" href="tel:+ 7 (495) 555 65 65">+ 7 (495) 555 65 65</a>
+                                <p class="header-block-text">Ежедневно с 09:00 до 18:00</p>
+                            </div>
+                            <button class="header-button button" id="buttonPopup">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contact">
+                <div class="container">
+                    <div class="contact-container">
+                        <h1 class="title-contact">Контактная <span class="span-contact">информация</span> </h1>
+                        <div class="contact-content">
+                            <div class="contact-info">
+                                <p class="text-contact text-contact-mobile">+ 7 (495) 555 65 65</p>
+                                <p class="text-contact">info@millenium.ru</p>
+                                <p class="text-contact text-contact-last">Москва,
+                                    ул. Профсоюзная 76,БЦ «ГАЛЕРЕЯ 76» 2 этаж</p>
+                            </div>
+                            <div class="contact-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <h4 class="title-footer-top">Напишите нам</h4>
+                        <a href="#" class="link-footer-top">info@millenium.ru</a>
+                        <button class="button-top-footer button" id="buttonPopupFooter">Заказать звонок</button>
+                    </div>
+                    <div class="footer-center">
+                        <p class="text-footer-center">Москва, ул. Профсоюзная 76,<br> БЦ «ГАЛЕРЕЯ 76» 2 этаж
+                        </p>
+                        <p class="text-footer-center text-footer-center-time">
+                            +7 (495) 792-66-69<br>
+                            пн-пт 10:00–19:00
+                        </p>
+                        <ul class="social">
+                            <li class="item-social">
+                                <a class="link-social" href="#">
+                                    <img src="../image/telegram.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="item-social">
+                                <a class="link-social" href="#">
+                                    <img src="../image/whatsapp.svg" alt="whatsapp">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom">
+                        <a class="logo-link-footer" href="contacts.html">
+                            <img class="logo-image-footer" src="../image/logo-footer.svg" alt="logo-footer">
+                        </a>
+                        <p class="privacy">© 2018–2021 | Millenium - создание интернет-магазинов на 1С Битрикс</p>
+                        <p class="privacy privacy-last">Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="modal" id="modal">
+            <div class="header-top-modal">
+                <div class="hamburger-modal">
+                    <img src="../image/hamburger-popup.svg" alt="hamburger">
+                </div>
+                <a class="link-logo-tablet" href="contacts.html">
+                    <img src="../image/logo-tablet.svg" alt="logo">
+                </a>
+                <button class="button-tablet" id="buttonPopupModal">
+                    <img src="../image/call-tablet.svg" alt="call">
+                </button>
+            </div>
+            <div class="modal-close" id="modalClose">
+                <img src="../image/close.svg" alt="close">
+            </div>
+            <nav class="nav-modal">
+                <ul class="menu-modal">
+                    <li class="item-modal">
+                        <a href="../index.html" class="link-modal">Главная</a>
+                    </li>
+                    <li class="item-modal">
+                        <a href="../price/price.html" class="link-modal">Цены</a>
+                    </li>
+                    <li class="item-modal">
+                        <a href="../portfolio/portfolio.html" class="link-modal">Кейсы и отзывы</a>
+                    </li>
+                    <li class="item-modal">
+                        <a href="../contacts/contacts.html" class="link-modal">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="link-email-modal" href="#">info@millenium.ru</a>
+            <p class="text-modal">
+                +7 (495) 792-66-69<br>
+                пн-пт 10:00–19:00
+            </p>
+        </div>
+
+
+        <div class="popup" id="popup">
+            <div class="curtain" id="curtain"></div>
+            <form class="application">
+                <div class="close" id="popupClose">
+                    <img src="../image/close.svg" alt="close">
+                </div>
+                <h2 class="title-application">Заявка на консультацию</h2>
+                <div class="form-block-application">
+                    <label for="AppName" class="form-label-application">Ваше имя</label><br>
+                    <input id="AppName" type="text" name="Name" class="form-input-application" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="form-block-application">
+                    <label for="AppPhone" class="form-label-application">Номер телефона</label><br>
+                    <input id="AppPhone" type="tel" name="Phone" class="form-input-application" placeholder="+ 7 (999) 999 99 99" required>
+                </div>
+                <button class="application-button button" id="modalButtonAccept">Отправить</button>
+                <p class="application-text">Нажимая на кнопку «Отправить заявку», я даю согласие на обработку персональных данных и соглашаюсь c политикой конфиденциальности</p>
+                <img class="photo-popup" src="../image/application-photo.png" alt="application" width="221" height="102">
+            </form>
+        </div>
+
+
+        <div class="modal-accept" id="modalAccept">
+            <div class="curtain" id="modalCurtainAccept"></div>
+            <div class="accept">
+                <div class="close" id="modalCloseAccept">
+                    <img src="../image/close.svg" alt="close">
+                </div>
+                <h3 class="title-accept">Спасибо за заявку!Мы с вами свяжемся.</h3>
+                <h5 class="subtitle-accept">Ваш бонус:</h5>
+                <img class="photo-popup photo-accept" src="../image/accept-photo.png" width="357" height="165" alt="accept">
+                <img class="photo-popup photo-accept-mobile" src="../image/accept-photo-mobile.png" width="249" height="116"  alt="accept">
+                <a class="link-accept">Смотреть PDF</a>
+            </div>
+        </div>
+    </div>
+<script src="scripts/contacts.js"></script>
+</body>
+</html>
